@@ -38,7 +38,8 @@ export default function Category() {
               />
               <div className="category__text">
                 <h1>Pumpkins</h1>
-                <a>You look at the sceriest pum</a>
+                <a>You look at the sceriest</a>
+                <a>Pumpkins there is</a>
               </div>
             </div>
             <div>
@@ -49,7 +50,8 @@ export default function Category() {
               />
               <div className="category__text">
                 <h1>Witch Hat</h1>
-                <a>ghghghghgjhjhjhj</a>
+                <a>Pick the most styfish</a>
+                <a>witch hats there</a>
               </div>
             </div>
           </div>

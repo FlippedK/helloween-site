@@ -185,9 +185,56 @@ html, body, #__next {
         font-size: 20px;
         color: white;
     }
-    a {      
+    a {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;      
         width: 200px;
         color: gray;
     }
 
+}
+
+.site__about {
+    margin-top: 200px;
+}
+
+.site__about__main {
+    display: flex;
+
+}
+
+.site__about__text_top {
+    font-weight: 800;
+    width: 300px;
+    font-size: 32px;
+    color: white;
+    height: 50px;
+}
+
+.site__about__text_bot {
+    color: gray;
+    margin-top: 100px;
+
+}
+
+.site__about__buttom {
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: red;
+    padding: 15px;
+    color: white;
+    :hover {
+        opacity: 0.2;
+        background-color: rgb(141, 3, 3);
+    }  
+}
+
+.site__about__image {
+    margin-left: 75px;
 }

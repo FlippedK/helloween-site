@@ -22,6 +22,9 @@ export default function Menu() {
                 <Link href="/category">
                     <a>Category</a>
                 </Link>
+                <Link href="/about">
+                    <a>About</a>
+                </Link>
             </div>
         </>
     )
